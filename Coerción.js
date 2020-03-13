@@ -28,3 +28,9 @@ console.log(b);
 2
 typeof b
 "string"
+
+var c = Number(b); //y este a su vez se puede alterar
+typeof c
+"number"
+
+
