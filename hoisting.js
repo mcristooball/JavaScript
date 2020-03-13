@@ -9,4 +9,14 @@ espera que reconozca en automatico la asignacion que tiene la variable en la sig
 // A esto se le conoce como hoisting
 miNombre = "Mike";
 
+----------------------------------------------------------
+//Por otro lado con las funciones podriamos aplicar la misma forma de trabajo y en este caso si
+//funcionara que antes llamemos a la funcion
 
+var nombre = "Mike";
+nombreComp();
+
+
+function nombreComp(){
+    console.log(`${nombre} Cristobal`)
+}
