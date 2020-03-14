@@ -9,8 +9,8 @@ boolean(); // Si no tenemos un valor es falso
 
 //Eg. de valores verdaderos:
 boolean(true);
-boolean(1);
+boolean(1); //cualquier numero que no sea cero
 boolean(" "); // String con un caracter, en este caso un espacio
 boolean(funcion(){});
-boolean({}); // objeto
-boolean([]); // array
+boolean({}); // objeto aunque este vacio
+boolean([]); // array aunque este vacio
