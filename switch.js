@@ -15,6 +15,9 @@ switch (numero) { // Lo que vamos a validar es lo que esta dentro de la variable
     case 1:
         console.log("Soy un numero uno!");
         break;
+    
+    default:
+        console.log("No soy nada");
 };
 
 
@@ -34,6 +37,9 @@ function newFunction() {
         case 1:
             console.log("Soy un numero uno!");
             break;
+            
+        default:
+            console.log("No soy nada");
     }
     ;
 }
