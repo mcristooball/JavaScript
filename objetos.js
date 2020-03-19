@@ -6,8 +6,9 @@
 var miAuto = {
     marca: "Jeep", // marca<palabra clave>, "Jeep"<Valor>
     annio: 2020,
-    detalleAuto: function(){
-        console.log(`Mi camioneta es ${this.marca} ${this.annio}`);
+    detalleAuto: function(){ // Esta propiedad que lleva una funcion como valor es un metodo de objeto.
+        console.log(`Mi camioneta es ${this.marca} ${this.annio}`); // El this es una variable que hace referencia al 
+        // objeto
     }
 };
 
