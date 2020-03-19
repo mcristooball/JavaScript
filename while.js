@@ -8,10 +8,12 @@ var estudiantes = ["Miguel", "Angel", "Cristobal"];
 
  while(estudiantes.length > 0){ //Mientras la longitud del arreglo estudiantes sea mayor a cero
      console.log(estudiantes);
-     var estudiante = estudiantes.shift(); // Se tiene que cumplir este loop ciclo
+     var estudiante = estudiantes.shift(); // Se tiene que cumplir este loop o ciclo
      // que genera una variable con el metodo de mutacion shift que va a estar sacando elementos
      saludarEstudiantes(estudiante);    
  }
+
+................................................................................................
 
 >> (3) ["Miguel", "Angel", "Cristobal"]
 >> Hola, Miguel
