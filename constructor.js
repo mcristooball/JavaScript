@@ -15,3 +15,6 @@ console.log(autoNuevo_1);
 console.log(autoNuevo_2);
 {marca: "Jeep", modelo: "Cherokee", annio: 2020}
 {marca: "Nissan", modelo: "Tsuru", annio: 1996}
+
+
+// Hacer un loop donde se agreguen nuevos autos a la funcion constructora
