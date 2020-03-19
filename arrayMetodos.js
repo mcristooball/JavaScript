@@ -38,7 +38,8 @@ var nombreArticulos = articulos.map(function(articulo){
 });
 
 nombreArticulos
->> (5) ["Impresora", "Lapicera", "Celular", "Teclado", "Mouse"]
+>> (5) ["Impresora", "Lapicera", "Celular", "Teclado", "Mouse"]// creo un array nuevo unicamente
+// de la lista  de nombres
 >> 0: "Impresora"
 >> 1: "Lapicera"
 >> 2: "Celular"
