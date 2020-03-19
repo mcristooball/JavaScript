@@ -25,3 +25,7 @@ for(var alumno of alumnos){ //En esta linea hacemos referencia al singular del a
     // donde la variable alumno cumple la funcion que desempeñaria el index.
     saludarAlumno(alumno);
 };
+
+>> Hola, Miguel
+>> Hola, Jocelyn
+>> Hola, Angel
